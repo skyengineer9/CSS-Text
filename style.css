@@ -1,0 +1,119 @@
+/* Text color examples */
+h1.ex1 {
+  color: green;
+}
+p.p1 {
+  color: blue;
+}
+
+/* Background color with text color */
+h1.ex2 {
+  background-color: black;
+  color: white;
+}
+div.div1 {
+  background-color: blue;
+  color: white;
+}
+
+/* Text alignment examples */
+h1.center {
+  text-align: center;
+}
+h2.left {
+  text-align: left;
+}
+h3.right {
+  text-align: right;
+}
+
+/* Justified text alignment with a border */
+div.justify {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+/* Text-align-last examples */
+p.right {
+  text-align-last: right;
+}
+p.left {
+  text-align-last: left;
+}
+p.justify {
+  text-align-last: justify;
+}
+
+/* Right-to-left text direction */
+p.rtl {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+/* Text decoration examples */
+h1.overline {
+  text-decoration: overline red dashed 3px;
+}
+h2.line-through {
+  text-decoration: line-through blue double 1px;
+}
+h3.underline {
+  text-decoration: underline greenyellow wavy 5px;
+}
+p.mixed {
+  text-decoration: overline underline;
+  text-decoration-color: purple;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 4px;
+}
+
+/* Text transformation styles */
+p.uppercase {
+  text-transform: uppercase;
+}
+p.lowercase {
+  text-transform: lowercase;
+}
+p.capitalized {
+  text-transform: capitalize;
+}
+
+/* Text indentation */
+p.indent {
+  text-indent: 50px;
+}
+
+/* Letter spacing variations */
+h2.spacing {
+  letter-spacing: 3px;
+}
+h3.spacing {
+  letter-spacing: 1px;
+}
+h4.spacing {
+  letter-spacing: -1px;
+}
+
+/* Line height adjustments */
+p.smaller {
+  line-height: 0.1;
+}
+p.bigger {
+  line-height: 0.7;
+}
+
+/* Word spacing variations */
+p.one {
+  word-spacing: 6px;
+}
+p.two {
+  word-spacing: -2px;
+}
+
+/* Text shadow effect */
+h2.shadow {
+  text-shadow: 2px 2px 5px red;
+}
